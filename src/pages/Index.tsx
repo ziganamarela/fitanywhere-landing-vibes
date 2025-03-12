@@ -1,6 +1,7 @@
 
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Introduction from "@/components/Introduction";
 import BoxFun from "@/components/BoxFun";
@@ -35,6 +36,7 @@ const Index = () => {
       transition={{ duration: 0.5 }}
       className="overflow-x-hidden"
     >
+      <Navigation />
       <Hero />
       <Introduction />
       <BoxFun />
